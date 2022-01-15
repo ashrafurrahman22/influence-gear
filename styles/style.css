@@ -15,7 +15,14 @@ nav {
     margin-right: 8%;
     margin-bottom: 3%;
     color: rgb(58, 58, 58);
+    
+    
 }
+header:hover {
+   background-color: blueviolet;
+   transition: background-color 3s ease-in-out ;
+}
+
 
 
 nav a{
@@ -188,3 +195,46 @@ footer {
 
 }
 
+/*-----------------
+  media quaries
+------------------- */
+/*---------------
+  mobile devices
+----------------- */
+@media only screen and (max-width:688px) {
+
+    body {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .anchor {
+        display: none;
+    }
+    .products-head {     
+        display: flex;
+        flex-direction: column-reverse;  
+    }
+    .links {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+    .fourth-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+        .popular-collections {
+           display:grid;
+           grid-template-columns: repeat(1, 1fr); 
+        }
+       .see-more-button {
+           display: flex;
+           justify-content: right;
+       }
+        
+
+}
