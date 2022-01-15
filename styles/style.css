@@ -26,6 +26,8 @@ nav a{
    
 }
 
+
+
 /*----------------
     first-section
 ------------------ */
@@ -60,8 +62,24 @@ nav a{
 }
 
 
+/*---------------------- 
+links of some company
+second section
+----------------------- */
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 3px lightblue;
+    
+}
+.links>a {
+    margin-right: 30px;
+}
+
+
 /*-----------------
-  popular-products
+  third-section-styles
   -----------------*/
 
 .second-heading {
@@ -102,6 +120,45 @@ nav a{
     
 }
 
+
+/* -------------------------
+  styles for fourth section
+---------------------------- */
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+.fourth-sec-img {
+    width: 300px;
+    box-shadow: 5px 5px 5px lightblue;
+    border-radius: 5px;
+}
+.fourth-sec-info {
+    margin-left: 10%;
+    color: rgb(58, 58, 58);
+    text-align: justify;
+}
+.fourth-button {
+    text-decoration: none;
+    background-color: rgb(58, 58, 58);
+    color:white;
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 15px;
+}
+
+
+
+
+
+
 /*-----------
      footer
 ------------- */
@@ -130,3 +187,4 @@ footer {
     font-size: 25px;
 
 }
+
